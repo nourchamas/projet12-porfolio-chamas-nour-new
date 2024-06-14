@@ -22,12 +22,7 @@ export default function Contact({ contact, size }: ContactProps) {
       link_alt: "GitHub",
     },
 
-    {
-      name: "rss",
-      icon: "fas fa-rss",
-      link: "/rss.xml",
-      link_alt: "RSS Feed",
-    },
+  
   ];
 
   return (

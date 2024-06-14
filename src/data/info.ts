@@ -5,7 +5,7 @@ export const info = {
   brief_description:
     "une développeuse front-end passionnée",
   role: "Développeuse front-end",
-  picture: "/public/nour photo.jpg",
+  picture: "/nour photo.jpg",
   picture_alt: "Chamas Nour",
   location: "France",
   cv: "/resume chamas nour .pdf",
@@ -24,20 +24,18 @@ export const info = {
         }
       ],
 
-  
-      experience: [{
+      experience: [{}, {
 
       }, {
-
-      }, {
-
+      
       }],
+     
     skills: ["Html","Css","JavaScript", "React", "Node.js",], 
   },
-
+  
   projects: [
     {
-      projet1: " Portfolio",
+      title: " Portfolio",
       date: "2024",
       description:
         "An interactive portfolio website showcasing my mischievous coding projects.",
@@ -47,7 +45,7 @@ export const info = {
       img_path: "/public/screenshot nour.png",
     },
     { 
-      projet2: "Debuggez le site ",
+      title: "Debuggez le site ",
       date: "2023",
       description:
         ":Débugger un site web 724 events.",
@@ -57,12 +55,12 @@ export const info = {
       img_path:"/public/724 events .png"
     },
     {
-      projet3: "projet 3 Booki",
+      title: "Booki",
       date: "2023",
       description:
         "Description :Créez la page d'accueil d'une agence de voyage avec HTML & css",
       link: "https://github.com/nourchamas/Booki.git",
-      tech: ["Html", "css",],
+      tech: ["Html", "css"],
       img_alt: "Booki",
       img_path: "/public/booki projet.png",
     },
@@ -72,11 +70,12 @@ export const info = {
        description:
          "Créez une application web de location immobilière avec React",
          link:"https://github.com/nourchamas/kasa.git",
-         tech:"Html , Css ,React,Javascript",
-        img_alt:"Kaza",
-        img_path:"/public/kasa photo.png",
-    }
+         tech:["Html,Css,React,Javascript"],
+         img_alt: "Kaza photo",
+         img_path:"/public/kasa photo.png",
+    },
   ],
+
 
   contact: {
     email: "nour.chamas@outlook.com",
