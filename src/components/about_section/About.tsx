@@ -1,7 +1,5 @@
-import React from "react";
 import { info } from "../../data/info";
 import Education from "./Education";
-import Experience from "./Experience";
 
 interface AboutProps {
   about: (typeof info)["about"];
@@ -17,7 +15,6 @@ export default function About(props: AboutProps) {
         <p className="text-2xl font-normal">{info.about.description}</p>
       </div>
       <Education education={about.education} />
-      <Experience experience={about.experience} />
     </div>
   );
 }
